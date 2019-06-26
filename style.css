@@ -167,7 +167,7 @@ section > p{
 #projects p{
     display: grid;
     padding: 0.5em;
-    grid-template-rows: 550px;
+    grid-template-rows: 480px;
     text-align: left;
     margin: 0 0 0 0.5em;
 }
@@ -212,6 +212,7 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+    
     footer{
         display: flex;
         flex-direction: column;
@@ -285,17 +286,28 @@ footer{
         display: block;
     }
 
-    .buttons{
-        position: center;
+    #bioButton{
+        margin: 1em 1.8em 0.5em 2em;
+    }
+
+    #skillsButton{
+        margin: 1em 1.8em 0.5em 2em;
     }
 
     .collapsible{
         margin: 0.5em;
         min-width: 400px;
-        padding: 0.5em;
-        
-
+        padding: 0.5em;        
     }
+
+    #projects p{
+        display: grid;
+        padding: 0.5em;
+        grid-template-rows: auto;
+        text-align: left;
+        margin: 0 0 0 0.5em;
+    }
+
 }
 
 .slideshow{
